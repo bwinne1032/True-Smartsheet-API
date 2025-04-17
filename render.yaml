@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: smartsheet-intake-api
+    env: python
+    buildCommand: ""
+    startCommand: "python main.py"
+    envVars: []
